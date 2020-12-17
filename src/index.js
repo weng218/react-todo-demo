@@ -1,5 +1,9 @@
+//need react import for JSX
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import TodoList from './TodoList';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+//TodoList is a component 
+//Render a React element into the DOM in the supplied container 'root'
+//JSX syntax using TodoList as custom tag, Note: need to capitalize first letter, 
+ReactDOM.render(<TodoList />, document.getElementById('root'));
